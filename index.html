@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+     <!-- font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo css -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>IMC</title>
+    <link rel="shortcut icon" href="img/male-solid.svg" type="image/x-icon">
+
+</head>
+
+            <!-- CONTAINER -->
+<body>
+    
+    <div class="container">
+        <div id="fundo">
+            <h4 class="title">Nunca foi tão fácil Calcular seu índice de massa corporal(IMC)</h4>
+        </div>
+        <br><br><br>
+
+        <!-- FORMULARIO -->
+        <div class="form-inline, pesquisa">
+            <input class="form-control mr-2" type="text" placeholder="Qual seu nome? " id="name">
+            <input class="form-control mr-2 mt-2" type="text" placeholder="Qual sua altura? (em cm)" id="alt">
+            <input class="form-control mt-2" type="text" placeholder="Qual seu peso?" id="kg">
+            <!-- botão de enviar -->
+            <button class="mt-2 btn btn-primary" onclick="caracteres()" id="enviar">Calcular</button>
+        </div>
+
+        <!-- CAIXA DE RESPOSTA -->
+        <div class="form-group">
+            <label for="mensagem">Resposta:</label>
+            <textarea class="form-control" id="mensagem" rows="3" disabled="disabled"></textarea>
+        </div>
+
+        
+    </div>
+
+
+
+<!-- rodapé -->
+
+    <footer class="fixed-bottom">
+        <nav class=" navbar navbar-dark bg-dark navbar-expand">
+            <div class="navega1 collapse navbar-collapse col-md-6">
+              <ul class="navbar-nav ml-auto align-self-center">
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/gabrielf_lucass/" class="nav-link">
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/profile.php?id=100004610052098" class="nav-link">
+                      <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="tel:+84996624926" class="nav-link">
+                      <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:gabriellucas016@gmail.com">
+                    <i class="fas fa-envelope fa-2x "></i>
+                    
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p class="pt-3 text-white-50">
+                 &copy; Lucas Gabriel - 2021
+              </p>
+            </div>
+            
+          </nav>
+    </footer>
+
+
+    <!-- script da logica -->
+    <script src="IMC.js"></script>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

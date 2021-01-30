@@ -1,0 +1,34 @@
+body{
+    /* dois backgoud  */
+    background: 
+                url(img/head-1965681_1280.jpg);
+                /* fixar a img de fundo */
+    background-size: 800px;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* classes */
+.title{
+    
+    text-align: center;
+}
+.pesquisa{
+    text-align: center;
+    padding-top: 20px;
+}
+.resu{
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+
+/* ID */
+#fundo{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+}
